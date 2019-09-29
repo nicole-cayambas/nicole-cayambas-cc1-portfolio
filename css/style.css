@@ -6,35 +6,43 @@ a {
   text-decoration: none; color: black;
 }
 .ho {
-  font-size: 18px; transition: 0.5s;
+  font-size: 18px;
+  transition: font-size 0.3s;
 }
 .ho:hover {
-  color:white; font-size: 20px; transition: 0.5s;
+  color:white;font-size: 20px;
 }
 .nav {
-  text-align: right; background-color: white; position: sticky; top:0; padding: 10px;
+  text-align: right; background-color: white; position: sticky; top:0; padding: 10px; margin: -10px;opacity: 0.8;
 }
 li {
   display: inline; padding: 10px 30px 10px 30px; font-family: 'Roboto', sans-serif;
 }
 li:hover{
-    background-color: #0a74a1;
+    background-color: #0a74a1;padding: 15px 30px 15px 30px;
 }
 .inside {
   margin-top: 30px;
 }
 /*for the answers*/
 .insidewho, .insidewhoami, .insidewhy, .insidewherefrom, .insidewherebe {
-  opacity: 0; padding: 20px; position: relative; text-align: center;
+  opacity:0; margin: -50px 230px 5px 230px; position: relative; text-align: center;padding:20px; transition: opacity 0.5s;
 }
 .insidewho:hover, .insidewhoami:hover, .insidewhy:hover, .insidewherefrom:hover, .insidewherebe:hover {
-  opacity: 100; transition: 1s;
+  opacity: 100;
 }
-/*for the answers*/
+/*for the container*/
+
+.why, .wherebe {
+  text-align: right;
+}
+.why, .wherebe, .whoami, .wherefrom, .who {
+  padding: 40px; color:black; transition: opacity 0.3s;
+}
 
 .whoami:hover, .wherefrom:hover, .why:hover, .wherebe:hover, .who:hover {
   background: url(https://images.unsplash.com/photo-1564951405282-6e79578207c9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
-  color: white; opacity: 100; transition: 1s;
+  color: white;
 }
 h1 {
   font-family: helvetica; color: #ffa14f; font-size: 70px; text-align: center; margin: 30px 0px 0px 0px;
@@ -50,12 +58,6 @@ p {
   font-family: 'Roboto', sans-serif;
 }
 
-.why, .wherebe {
-  text-align: right;
-}
-.why, .wherebe, .whoami, .wherefrom, .who {
-  padding: 40px; color:black;
-}
 .port {
   text-decoration-color: black; transition: 0.5s; text-decoration: none; background-position: center;
 }
@@ -63,7 +65,7 @@ p {
   color:#ffa14f; font-size: 40px; transition: 0.3s;
 }
 .con1 {
-  background-color: #0a74a1; padding: 40px; color:white;height:300px;
+  background-color: #0a74a1; padding: 40px; color:white;height:100%;
 }
 .con1:hover{
   color:#ffa14f;
@@ -71,13 +73,11 @@ p {
 .containerabout {
   text-align: center;
   margin-top:150px;
-  float:center;
   position: absolute;
   background: url(https://images.unsplash.com/flagged/photo-1567934150921-7632371abb32?ixlib=rb-1.2.1&auto=format&fit=crop&w=1534&q=80);
-  background-size: 100%;
-  padding: 120px 540px 120px 40px;
+  background-size: 80%;
+  padding: 120px 370px 120px 40px;
   color: white;
-  transition: 0.2s;
 }
 th {
   height: 100;
@@ -104,6 +104,9 @@ td {
   -o-font-smoothing: antialiased;
   font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+}
+.containerall{
+  margin-top:-60px;
 }
 
 .container {
@@ -224,4 +227,28 @@ fieldset {
 
 :-ms-input-placeholder {
   color: #888;
+}
+.labs {
+  padding: 20px;
+  background-color: #ffa14f;
+  margin:0px;
+}
+.labs2 {
+  padding: inherit;
+  font-family: helvetica;
+  color: white;
+  text-decoration: underline;
+  transition: color, font-size 0.2s;
+}
+.labs2:hover {
+  font-size: 20px;
+  color: #0a74a1;
+}
+.lablisttable{
+  margin: 0 auto;
+  width: 70%;
+}
+.lablisttablecont{
+  text-align: center;
+  margin-top:90px;
 }
