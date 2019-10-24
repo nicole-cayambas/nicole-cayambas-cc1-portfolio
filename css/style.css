@@ -3,12 +3,15 @@ body {
   background-attachment: scroll; background-repeat: no-repeat; background-size: 100%;
 }
 /*container sa home*/
+.homewrap {
+  text-align:center;
+}
 .homecontain {
   width: 800px;
   background-color: white;
   border: 10px;
   float:center;
-  text-align:center;
+  display:inline-block;
 }
 /*container sa home*/
 
