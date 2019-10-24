@@ -7,6 +7,8 @@ body {
   width: 800px;
   background-color: white;
   border: 10px;
+  float:center;
+  text-align:center;
 }
 /*container sa home*/
 
