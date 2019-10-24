@@ -7,9 +7,9 @@ body {
   text-align:center;
 }
 .homecontain {
-  width: 800px;
+  width: 1000px;
   background-color: white;
-  border: 10px;
+  border: 40px;
   float:center;
   display:inline-block;
 }
