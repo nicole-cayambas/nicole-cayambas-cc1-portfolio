@@ -273,3 +273,6 @@ fieldset {
   text-align: center;
   margin-top:90px;
 }
+.lclist{
+  display: block;
+}
