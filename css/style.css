@@ -48,11 +48,9 @@ li:hover{
 /*for the container*/
 
 .why, .wherebe {
-  margin-top: 600px;
   text-align: right;
 }
 .why, .wherebe, .whoami, .wherefrom, .who {
-  margin-top: 600px;
   padding: 40px; color:black; transition: opacity 0.3s;
 }
 
