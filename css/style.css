@@ -36,7 +36,7 @@ li:hover{
     background-color: #0a74a1;padding: 15px 30px 15px 30px;
 }
 .inside {
-  margin-top: 300px;
+  margin-top: 30px;
 }
 /*for the answers*/
 .insidewho, .insidewhoami, .insidewhy, .insidewherefrom, .insidewherebe {
@@ -48,9 +48,11 @@ li:hover{
 /*for the container*/
 
 .why, .wherebe {
+  margin-top: 600px;
   text-align: right;
 }
 .why, .wherebe, .whoami, .wherefrom, .who {
+  margin-top: 600px;
   padding: 40px; color:black; transition: opacity 0.3s;
 }
 
