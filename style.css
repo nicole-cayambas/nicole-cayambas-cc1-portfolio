@@ -36,7 +36,7 @@ li:hover{
     background-color: #0a74a1;padding: 15px 30px 15px 30px;
 }
 .inside {
-  margin-top: 30px;
+  margin-top: 60px;
 }
 /*for the answers*/
 .insidewho, .insidewhoami, .insidewhy, .insidewherefrom, .insidewherebe {
@@ -56,6 +56,8 @@ li:hover{
 
 .whoami:hover, .wherefrom:hover, .why:hover, .wherebe:hover, .who:hover {
   background: url(https://images.unsplash.com/photo-1564951405282-6e79578207c9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+  background-repeat: no-repeat;
+  background-size: 100%;
   color: white;
 }
 h1 {
@@ -87,13 +89,15 @@ p {
 .con1:hover{
   color:#ffa14f;
 }
+
+
 .containerabout {
   text-align: center;
-  margin-top:150px;
-  position: absolute;
+  margin-top:20px;
   background: url(https://images.unsplash.com/flagged/photo-1567934150921-7632371abb32?ixlib=rb-1.2.1&auto=format&fit=crop&w=1534&q=80);
-  background-size: 80%;
-  padding: 120px 370px 120px 40px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 100px 370px 100px 370px;
   color: white;
 }
 th {
@@ -125,140 +129,25 @@ td {
 .containerall{
   margin-top:-60px;
 }
-
-.container {
-  max-width: 500px;
-  width: 100%;
-  margin: 0 auto;
-  position: relative;
-  float: right;
-}
-
-#contact input[type="text"],
-#contact input[type="email"],
-#contact input[type="tel"],
-#contact input[type="url"],
-#contact textarea,
-#contact button[type="submit"] {
-  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
-}
-
-#contact {
-  background: #F9F9F9;
-  padding: 25px;
-  margin: 150px 0;
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-}
-
-#contact h3 {
-  display: block;
-  font-size: 30px;
-  font-weight: 300;
-  margin-bottom: 10px;
-}
-
-#contact h4 {
-  margin: 5px 0 15px;
-  display: block;
-  font-size: 13px;
-  font-weight: 400;
-}
-
-fieldset {
-  border: medium none !important;
-  margin: 0 0 10px;
-  min-width: 100%;
-  padding: 0;
-  width: 100%;
-}
-
-#contact input[type="text"],
-#contact input[type="email"],
-#contact input[type="tel"],
-#contact input[type="url"],
-#contact textarea {
-  width: 100%;
-  border: 1px solid #ccc;
-  background: #FFF;
-  margin: 0 0 5px;
-  padding: 10px;
-}
-
-#contact input[type="text"]:hover,
-#contact input[type="email"]:hover,
-#contact input[type="tel"]:hover,
-#contact input[type="url"]:hover,
-#contact textarea:hover {
-  -webkit-transition: border-color 0.3s ease-in-out;
-  -moz-transition: border-color 0.3s ease-in-out;
-  transition: border-color 0.3s ease-in-out;
-  border: 1px solid #aaa;
-}
-
-#contact textarea {
-  height: 100px;
-  max-width: 100%;
-  resize: none;
-}
-
-#contact button[type="submit"] {
-  cursor: pointer;
-  width: 100%;
-  border: none;
-  background: #4CAF50;
-  color: #FFF;
-  margin: 0 0 5px;
-  padding: 10px;
-  font-size: 15px;
-}
-
-#contact button[type="submit"]:hover {
-  background: #43A047;
-  -webkit-transition: background 0.3s ease-in-out;
-  -moz-transition: background 0.3s ease-in-out;
-  transition: background-color 0.3s ease-in-out;
-}
-
-#contact button[type="submit"]:active {
-  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
-}
-
-
-#contact input:focus,
-#contact textarea:focus {
-  outline: 0;
-  border: 1px solid #aaa;
-}
-
-::-webkit-input-placeholder {
-  color: #888;
-}
-
-:-moz-placeholder {
-  color: #888;
-}
-
-::-moz-placeholder {
-  color: #888;
-}
-
-:-ms-input-placeholder {
-  color: #888;
-}
 .labs {
   padding: 20px;
   background-color: #ffa14f;
   margin:0px;
+  width: 20%;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+.labs:hover{
+  width: 25%;
+  font-size: 20px;
 }
 .labs2 {
   padding: inherit;
   font-family: helvetica;
   color: white;
   text-decoration: underline;
-  transition: color, font-size 0.2s;
 }
 .labs2:hover {
-  font-size: 20px;
   color: #0a74a1;
 }
 .lablisttable{
@@ -276,4 +165,19 @@ fieldset {
 .lclist{
   display: block;
   text-align:center;
+}
+.container {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  float: right;
+}
+.expandForTable{
+  width: 20%;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+.expandForTable:hover {
+  width: 25%;
 }
